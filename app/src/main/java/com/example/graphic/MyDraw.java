@@ -149,8 +149,8 @@ public class MyDraw extends View{
         paint.setStyle(Paint.Style.STROKE);
 
         canvas.drawCircle(700, 1100, 100, paint);
-/*
-        Paint paint = new Paint();
+
+     //  Paint paint = new Paint();
         paint.setStyle(Paint.Style.FILL);
         paint.setColor(Color.WHITE);
         // Закрашиваем холст
@@ -208,6 +208,6 @@ public class MyDraw extends View{
         paint.setColor(Color.parseColor("#19ff19"));
         paint.setStyle(Paint.Style.FILL_AND_STROKE);
         canvas.drawOval(850,1000,1000,1850,paint);
-*/
+
     }
 }
